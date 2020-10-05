@@ -1,0 +1,33 @@
+---- REQUIREMENTS -----
+com.javaclass.game.util.Game
+- start
+	- com.javaclass.game.util.Game thinks of a random number between 1 and 100
+	- com.javaclass.game.util.Game propmts the user to guess the number
+		- Max tries 10
+	- if the user guess is not the same as computer selected number
+		- Give a hint (higher or lower)
+	- If a user correctly guesses a number
+		- Print congratultions message
+	else
+		- Print Sorry message and revel the number that computer had thought
+
+-- HOMEWORK --
+- Change the program to accept the name of the user at start
+- Use the name to greet the user whenever required
+- Change the logic to make it more modularized (extract repeating logic in a separate method)
+  -- checkIfGuessIsCorrect(userGuess)
+  -- printSuccessMessage
+  -- printFailureMessage
+- Print the current attempt number and number of attempts remaining at each prompt
+    -- Example: Attempt 1 of 10 : Please enter your guess
+-- IMP : Come up with any other improvement that you can think of
+
+
+
+--- DEVELOPER NOTES ---
+Create a 'com.javaclass.game.util.Game' class
+- start method
+- get user input
+- check guessed number
+- print congrats
+- print sorry
