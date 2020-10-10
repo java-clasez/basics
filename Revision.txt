@@ -1,0 +1,36 @@
+Data Types
+- int
+- long
+- double
+- String
+
+Conditional constructs
+- if
+- else
+
+Iterative constructs (loops)
+- while
+- for
+- do .. while
+
+Classes
+- Create a class
+
+Packages
+- Create a package
+- Create a class in a package
+
+Method overloading
+- Polymorphism (overload and call a method based on its signature)
+
+Method overriding
+- Changing / modifying the inherited attributes.
+
+Access modifiers
+- public
+- private
+
+Next:
+- Classes and some more datatypes (Example based)
+
+

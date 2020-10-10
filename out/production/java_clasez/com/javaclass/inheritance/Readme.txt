@@ -19,3 +19,6 @@ Method Override
 
 You can change the behaviour of a method in a child class.(In other words: you "override" the functionality provided
 by the parent class)
+
+In JAVA - "ALL" classes implicitly extend (are a child of "Object" class)
+
