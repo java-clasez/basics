@@ -7,7 +7,7 @@
     - the program should ask the user for the names one at a time (try and remember how we used scanner)
     - store each name in an array
 
-    once the user has enter all names
+    once the user has entered all names
     - print a list of all names
 
     - ask the user to give you the 'position' (e.g. 3) in the array
