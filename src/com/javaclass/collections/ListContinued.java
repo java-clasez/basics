@@ -2,6 +2,7 @@ package com.javaclass.collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 
 public class ListContinued {
     public static void main(String[] args) {
@@ -53,7 +54,19 @@ public class ListContinued {
             }
         }
 
+        // Iterator
+        Iterator<String> itr = listOfFruits.iterator();
+        System.out.println("USING ITERATOR TO PRINT THE ELEMENTS");
+        while(itr.hasNext()) {
+            String fruit = itr.next();
+            if(fruit.equals("Apple")){
+                itr.remove();
+            }
+            System.out.println(fruit);
+        }
+
         System.out.println("Unique types " + uniqueFruits);
+        System.out.println(listOfFruits);
 
         // NOTE: !! IMPORTANT !! Remember - the order of insertion is retained in Lists.
         // listNames = ['Apple', 'Grapes', 'Orange', 'Pear']
